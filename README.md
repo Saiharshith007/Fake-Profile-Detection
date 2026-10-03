@@ -1,6 +1,6 @@
 # Fake Profile Detection
 
-[![CI](https://github.com/Saiharshith007/Fake-Profile-Detection-using-ML/actions/workflows/ci.yml/badge.svg)](https://github.com/Saiharshith007/Fake-Profile-Detection-using-ML/actions/workflows/ci.yml)
+[![CI](https://github.com/Saiharshith007/Fake-Profile-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/Saiharshith007/Fake-Profile-Detection/actions/workflows/ci.yml)
 
 This project classifies X (formerly Twitter) accounts as genuine or fake using five public profile counts. It compares a Random Forest, an SVM and a small neural network built with scikit-learn.
 
@@ -23,8 +23,8 @@ These scores reflect how easy this dataset is. They don't show that the models d
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/Saiharshith007/Fake-Profile-Detection-using-ML.git
-cd Fake-Profile-Detection-using-ML
+git clone https://github.com/Saiharshith007/Fake-Profile-Detection.git
+cd Fake-Profile-Detection
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
